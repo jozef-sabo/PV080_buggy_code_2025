@@ -33,6 +33,7 @@ def fetch_website(urllib_version, url):
         r = http.request('GET', url)
     except:
         print('Exception')
+    return r
 
 
 def load_yaml(filename):
